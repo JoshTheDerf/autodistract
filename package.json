@@ -2,7 +2,7 @@
 {
   "name": "autodistract",
   "version": "0.1.0",
-  "description": "An automatic simulator of Wikipedia reading.",
+  "description": "A goofy Wikipedia reading and distraction simulator. Written in JavaScript (Node.js) through npm.",
   "author": "Tribex <tribex.github.io>",
   "scripts": {
     "start": "node autodistract.js"

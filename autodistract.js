@@ -1,10 +1,12 @@
+#!/usr/bin/node
+
 var request = require('request');
 var cheerio = require('cheerio');
 
 var args = process.argv.slice(2);
 
 var startPage = args[0] ? args[0] : "Node.js";
-var maxIterations = args[1] ? +args[1] : 10;
+var maxIterations = args[1] ? +args[1] : 5;
 var iterations = 0;
 var visitedPages = [];
 
